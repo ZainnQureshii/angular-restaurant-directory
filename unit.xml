@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 84.0.4147 (Linux 0.0.0)" package="unit" timestamp="2020-07-16T20:02:56" id="0" hostname="zain" tests="4" errors="0" failures="2" time="0.264">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/84.0.4147.89 Safari/537.36"/>
+  </properties>
+  <testcase name="RestaurantDirectory Should clear the input after submit btn is clicked" time="0.098" classname=".RestaurantDirectory"/>
+  <testcase name="RestaurantDirectory Should add new values on btn click" time="0.026" classname=".RestaurantDirectory"/>
+  <testcase name="RestaurantDirectory Initial UI is rendered as expected" time="0.123" classname=".RestaurantDirectory">
+    <failure type="">TypeError: Cannot read property 'children' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:55:42
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:52:56)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+</failure>
+  </testcase>
+  <testcase name="RestaurantDirectory Should not add anything if either value is empty" time="0.017" classname=".RestaurantDirectory">
+    <failure type="">TypeError: Cannot read property 'children' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:94:27
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
